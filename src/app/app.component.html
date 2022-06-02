@@ -1,0 +1,12 @@
+<h1>{{'Hello World!'}}</h1>
+
+<div class="my-google-map">
+    <google-map [width]="null" [height]="null" [options]="mapOptions" class="map-container">
+        <map-marker *ngFor="let marker of markers" [position]="marker.position"></map-marker>
+
+    </google-map>
+  </div>
+
+
+
+
